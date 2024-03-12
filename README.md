@@ -1,20 +1,36 @@
-# Movie Recommender System
+<div style="background-color:#E50914; border-radius:10px; border:#000000 solid; padding: 30px; font-size:120%; text-align:center">
+    <h1 align="center" style="color:#ffffff;"><b>Movie Recommendation System 🎬</b></h1>
+</div>
+
+<div style="background-color:#000000; border-radius:2px; border:#000000 solid; padding: 15px; font-size:100%; text-align:center">
+    <img src="https://media.tenor.com/NerN41mjgV0AAAAC/netflix-intro.gif" alt="Animated GIF">
+</div>
 
 This project is a comprehensive Movie Recommender System that employs various recommendation techniques to provide personalized movie suggestions to users. The system utilizes demographic filtering, content-based filtering, collaborative filtering, and singular value decomposition (SVD) to generate recommendations based on user preferences and movie attributes.
+
+![](https://i.imgur.com/a5MK3cu.jpeg)
 
 ## Import Dependencies
 
 To run this Movie Recommender System, you'll need to have the following dependencies installed:
 
-- Python 3.x
-- Pandas
-- NumPy
-- Scikit-learn
-- Surprise
+- import string
+- import numpy as np
+- import pandas as pd
+- import matplotlib.pyplot as plt
+- import plotly.graph_objects as go
+- import plotly.express as px
+- from wordcloud import WordCloud
+- import pickle
+- from sklearn.feature_extraction.text import TfidfVectorizer
+- from sklearn.metrics.pairwise import cosine_similarity
+- import numpy as np
+- from scipy.sparse import save_npz
 
 ## EDA (Exploratory Data Analysis)
 
 The dataset used for this project is analyzed to gain insights into its structure, features, and distributions. Exploratory Data Analysis helps in understanding the characteristics of the dataset and aids in feature selection and engineering.
+
 
 ## Feature Engineering
 
